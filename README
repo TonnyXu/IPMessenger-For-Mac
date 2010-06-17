@@ -3,7 +3,19 @@ This a clone and continue updated version for IPMessenger on http://ipmsg.org/
 The Mac version is introduced on http://ishwt.net/software/ipmsg/ 
 
 
-The original IPMessenger for Mac is still under development, and the recent version is 0.9.3 released on 2010/05/29
+The original IPMessenger for Mac is still under development, and the recent version is 0.9.3 released on 2010/05/26
 
 I will contact the author later.
 
+Updated History
+===============
+・2010-06-17 0.9.2 Enhanced by Tonny Xu
+  + Support ⌘ +F on the text input box.
+  + Support search bar.
+  + Remeber the last windows size automatically.
+  + Support global hot key(Shortcut: ⌥ +⌘ +m) to show the send messenger window.
+  
+  *Known issues*
+  - Under searching mode, the new user will be added to the search result.
+  - Search box feature is not tested before Mac OS X 10.5
+  - Global shortcut feature is not test before Mac OS X 10.5
