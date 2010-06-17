@@ -1,0 +1,50 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                backWindowToFront = id; 
+                buttonPressed = id; 
+                cancelPwdSheet = id; 
+                okPwdSheet = id; 
+                openSeal = id; 
+                replyMessage = id; 
+                writeAlternateLog = id; 
+            }; 
+            CLASS = ReceiveControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                altLogButton = NSButton; 
+                attachButton = NSButton; 
+                attachDrawer = NSDrawer; 
+                attachSaveButton = NSButton; 
+                attachSheet = NSPanel; 
+                attachSheetCancelButton = NSButton; 
+                attachSheetDirNumLabel = NSTextField; 
+                attachSheetFileNameLabel = NSTextField; 
+                attachSheetFileNumLabel = NSTextField; 
+                attachSheetPercentageLabel = NSTextField; 
+                attachSheetProgress = NSProgressIndicator; 
+                attachSheetSizeLabel = NSTextField; 
+                attachSheetSpeedLabel = NSTextField; 
+                attachSheetTitleLabel = NSTextField; 
+                attachTable = NSTableView; 
+                dateLabel = NSTextField; 
+                infoBox = NSBox; 
+                messageArea = NSTextView; 
+                pwdSheet = NSPanel; 
+                pwdSheetErrorLabel = NSTextField; 
+                pwdSheetField = NSSecureTextField; 
+                quotCheck = NSButton; 
+                replyButton = NSButton; 
+                sealButton = NSButton; 
+                userNameLabel = NSTextField; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ReceiveMessageView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = ReceiveWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

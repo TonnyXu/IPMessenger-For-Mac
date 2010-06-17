@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NoticeControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                dateLabel = NSTextField; 
+                messageLabel = NSTextField; 
+                titleLabel = NSTextField; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {buttonPressed = id; textChanged = id; }; 
+            CLASS = PortChangeControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {okButton = NSButton; panel = NSPanel; portNoField = NSTextField; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

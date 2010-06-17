@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D8CB5F115CC699001F0BB8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8CB5E115CC699001F0BB8 /* Carbon.framework */; };
+		F734531A0C454622001D5375 /* SendControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D350203CE5501A86403 /* SendControl.h */; };
+		F734531B0C454622001D5375 /* AppControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D390203CED401A86403 /* AppControl.h */; };
+		F734531C0C454622001D5375 /* NoticeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D40020411A401A86403 /* NoticeControl.h */; };
+		F734531D0C454622001D5375 /* MessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D4902041C4601A86403 /* MessageCenter.h */; };
+		F734531E0C454622001D5375 /* UserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D50020433CA01A86403 /* UserInfo.h */; };
+		F734531F0C454622001D5375 /* UserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D580204376601A86403 /* UserManager.h */; };
+		F73453200C454622001D5375 /* ReceiveControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5269D620204409F01A86403 /* ReceiveControl.h */; };
+		F73453210C454622001D5375 /* PrefControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5277C820205B2F101A86403 /* PrefControl.h */; };
+		F73453220C454622001D5375 /* SendMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F5277C860205B81A01A86403 /* SendMessage.h */; };
+		F73453230C454622001D5375 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = 648FC3560260947000A86403 /* Config.h */; };
+		F73453240C454622001D5375 /* LogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CD0450027F05C200C69EE8 /* LogManager.h */; };
+		F73453250C454622001D5375 /* RetryInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DAAE0B02A0BDE2001FC8E1 /* RetryInfo.h */; };
+		F73453260C454622001D5375 /* RefuseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6426F20302C59B8700A80003 /* RefuseInfo.h */; };
+		F73453270C454622001D5375 /* WindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A2D09A02CF020900A80003 /* WindowManager.h */; };
+		F73453280C454622001D5375 /* ReceiveMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6417D5BB02EA9BF400A80003 /* ReceiveMessageView.h */; };
+		F73453290C454622001D5375 /* SendMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A845CF02EB14CD00A80003 /* SendMessageView.h */; };
+		F734532A0C454622001D5375 /* PortChangeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F52964AC02F6EBF501A80004 /* PortChangeControl.h */; };
+		F734532B0C454622001D5375 /* AttachmentServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F51E8DF20326721501A80003 /* AttachmentServer.h */; };
+		F734532C0C454622001D5375 /* Attachment.h in Headers */ = {isa = PBXBuildFile; fileRef = F51E8DF6032673F001A80003 /* Attachment.h */; };
+		F734532D0C454622001D5375 /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F17710344A90101A80003 /* DebugLog.h */; };
+		F734532E0C454622001D5375 /* SendWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E919C40362F94001A80004 /* SendWindow.h */; };
+		F734532F0C454622001D5375 /* AttachmentClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F53330EF0369A757012E428F /* AttachmentClient.h */; };
+		F73453300C454622001D5375 /* IPMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = F599B3C8036A445D01A80003 /* IPMessenger.h */; };
+		F73453310C454622001D5375 /* NSStringIPMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A78372037E820401C10C8C /* NSStringIPMessenger.h */; };
+		F73453320C454622001D5375 /* AttachStatusControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F5411AE50387AF0001B5C499 /* AttachStatusControl.h */; };
+		F73453330C454622001D5375 /* AttachmentFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F52567A603A2026001DDF8B6 /* AttachmentFile.h */; };
+		F73453340C454622001D5375 /* ReceiveWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F566A88D03B30DD80114103B /* ReceiveWindow.h */; };
+		F73453350C454622001D5375 /* RecvMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FA4CA103C5A67300F04150 /* RecvMessage.h */; };
+		F73453380C454622001D5375 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		F73453390C454622001D5375 /* SendWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F504C9960203352501A86403 /* SendWindow.nib */; };
+		F734533A0C454622001D5375 /* NoticeDialog.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5269D3D0204112D01A86403 /* NoticeDialog.nib */; };
+		F734533B0C454622001D5375 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5269D5C020439E901A86403 /* Localizable.strings */; };
+		F734533C0C454622001D5375 /* ReceiveWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F522B8D5020BB49301A86403 /* ReceiveWindow.nib */; };
+		F734533D0C454622001D5375 /* IPMsg.icns in Resources */ = {isa = PBXBuildFile; fileRef = F538AD5A0275CC1401A86404 /* IPMsg.icns */; };
+		F734533E0C454622001D5375 /* IPMsgAbsence.icns in Resources */ = {isa = PBXBuildFile; fileRef = F538AD5B0275CC1401A86404 /* IPMsgAbsence.icns */; };
+		F734533F0C454622001D5375 /* IPMsgAbsenceReverse.icns in Resources */ = {isa = PBXBuildFile; fileRef = 64C55AB80278E2F900F306A7 /* IPMsgAbsenceReverse.icns */; };
+		F73453400C454622001D5375 /* IPMsgReverse.icns in Resources */ = {isa = PBXBuildFile; fileRef = 64C55AB70278E2F900F306A7 /* IPMsgReverse.icns */; };
+		F73453410C454622001D5375 /* PortChangeDialog.nib in Resources */ = {isa = PBXBuildFile; fileRef = F52964A902F6EBD101A80004 /* PortChangeDialog.nib */; };
+		F73453420C454622001D5375 /* AltLog.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5FEFAD003AB352701F0AD6A /* AltLog.icns */; };
+		F73453430C454622001D5375 /* Attach.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5FEFAD203AB3F7701F0AD6A /* Attach.icns */; };
+		F73453440C454622001D5375 /* AttachS.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5FEFAD603AB49DB01F0AD6A /* AttachS.tiff */; };
+		F73453450C454622001D5375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5BF154D03B3095E0114103B /* InfoPlist.strings */; };
+		F73453470C454622001D5375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		F73453480C454622001D5375 /* SendControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D360203CE5501A86403 /* SendControl.m */; };
+		F73453490C454622001D5375 /* AppControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D3A0203CED401A86403 /* AppControl.m */; };
+		F734534A0C454622001D5375 /* NoticeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D41020411A401A86403 /* NoticeControl.m */; };
+		F734534B0C454622001D5375 /* MessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D4A02041C4601A86403 /* MessageCenter.m */; };
+		F734534C0C454622001D5375 /* UserInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5269D51020433CA01A86403 /* UserInfo.mm */; };
+		F734534D0C454622001D5375 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D590204376601A86403 /* UserManager.m */; };
+		F734534E0C454622001D5375 /* ReceiveControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5269D630204409F01A86403 /* ReceiveControl.m */; };
+		F734534F0C454622001D5375 /* SendMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5277C870205B81A01A86403 /* SendMessage.m */; };
+		F73453500C454622001D5375 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 648FC35B0260954200A86403 /* Config.m */; };
+		F73453510C454622001D5375 /* PrefControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4C4920272FF5300A86403 /* PrefControl.m */; };
+		F73453520C454622001D5375 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD0451027F05C200C69EE8 /* LogManager.m */; };
+		F73453530C454622001D5375 /* RetryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DAAE0C02A0BDE2001FC8E1 /* RetryInfo.m */; };
+		F73453540C454622001D5375 /* RefuseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6426F20402C59B8700A80003 /* RefuseInfo.m */; };
+		F73453550C454622001D5375 /* WindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A2D09B02CF020900A80003 /* WindowManager.m */; };
+		F73453560C454622001D5375 /* ReceiveMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6417D5BC02EA9BF400A80003 /* ReceiveMessageView.m */; };
+		F73453570C454622001D5375 /* SendMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A845D002EB14CD00A80003 /* SendMessageView.m */; };
+		F73453580C454622001D5375 /* PortChangeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F52964AD02F6EBF501A80004 /* PortChangeControl.m */; };
+		F73453590C454622001D5375 /* AttachmentServer.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E8DF30326721501A80003 /* AttachmentServer.m */; };
+		F734535A0C454622001D5375 /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E8DFC0326754901A80003 /* Attachment.m */; };
+		F734535B0C454622001D5375 /* SendWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E919C50362F94001A80004 /* SendWindow.m */; };
+		F734535C0C454622001D5375 /* AttachmentClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F53330F00369A757012E428F /* AttachmentClient.m */; };
+		F734535D0C454622001D5375 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F57BE9FD037DF9E901F89D99 /* DebugLog.m */; };
+		F734535E0C454622001D5375 /* NSStringIPMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A78373037E820401C10C8C /* NSStringIPMessenger.m */; };
+		F734535F0C454622001D5375 /* AttachStatusControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5411AE60387AF0001B5C499 /* AttachStatusControl.m */; };
+		F73453600C454622001D5375 /* AttachmentFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F52567A703A2026001DDF8B6 /* AttachmentFile.m */; };
+		F73453610C454622001D5375 /* ReceiveWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F566A88E03B30DD80114103B /* ReceiveWindow.m */; };
+		F73453620C454622001D5375 /* RecvMessage.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7FA4CA203C5A67300F04150 /* RecvMessage.mm */; };
+		F73453650C454622001D5375 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		6417D5BB02EA9BF400A80003 /* ReceiveMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiveMessageView.h; path = src/ReceiveMessageView.h; sourceTree = "<group>"; };
+		6417D5BC02EA9BF400A80003 /* ReceiveMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiveMessageView.m; path = src/ReceiveMessageView.m; sourceTree = "<group>"; };
+		6426F20302C59B8700A80003 /* RefuseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefuseInfo.h; path = src/RefuseInfo.h; sourceTree = "<group>"; };
+		6426F20402C59B8700A80003 /* RefuseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefuseInfo.m; path = src/RefuseInfo.m; sourceTree = "<group>"; };
+		648FC3560260947000A86403 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Config.h; path = src/Config.h; sourceTree = "<group>"; };
+		648FC35B0260954200A86403 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Config.m; path = src/Config.m; sourceTree = "<group>"; };
+		64A2D09A02CF020900A80003 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WindowManager.h; path = src/WindowManager.h; sourceTree = "<group>"; };
+		64A2D09B02CF020900A80003 /* WindowManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WindowManager.m; path = src/WindowManager.m; sourceTree = "<group>"; };
+		64A845CF02EB14CD00A80003 /* SendMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMessageView.h; path = src/SendMessageView.h; sourceTree = "<group>"; };
+		64A845D002EB14CD00A80003 /* SendMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMessageView.m; path = src/SendMessageView.m; sourceTree = "<group>"; };
+		64C4C4920272FF5300A86403 /* PrefControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrefControl.m; path = src/PrefControl.m; sourceTree = "<group>"; };
+		64C55AB70278E2F900F306A7 /* IPMsgReverse.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = IPMsgReverse.icns; path = resource/IPMsgReverse.icns; sourceTree = "<group>"; };
+		64C55AB80278E2F900F306A7 /* IPMsgAbsenceReverse.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = IPMsgAbsenceReverse.icns; path = resource/IPMsgAbsenceReverse.icns; sourceTree = "<group>"; };
+		64CD0450027F05C200C69EE8 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogManager.h; path = src/LogManager.h; sourceTree = "<group>"; };
+		64CD0451027F05C200C69EE8 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogManager.m; path = src/LogManager.m; sourceTree = "<group>"; };
+		64DAAE0B02A0BDE2001FC8E1 /* RetryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RetryInfo.h; path = src/RetryInfo.h; sourceTree = "<group>"; };
+		64DAAE0C02A0BDE2001FC8E1 /* RetryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RetryInfo.m; path = src/RetryInfo.m; sourceTree = "<group>"; };
+		A6D8CB5E115CC699001F0BB8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F504C99402032B8E01A86403 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = resource/Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F504C9970203352501A86403 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = resource/Japanese.lproj/SendWindow.nib; sourceTree = "<group>"; };
+		F51E8DF20326721501A80003 /* AttachmentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachmentServer.h; path = src/AttachmentServer.h; sourceTree = "<group>"; };
+		F51E8DF30326721501A80003 /* AttachmentServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachmentServer.m; path = src/AttachmentServer.m; sourceTree = "<group>"; };
+		F51E8DF6032673F001A80003 /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attachment.h; path = src/Attachment.h; sourceTree = "<group>"; };
+		F51E8DFC0326754901A80003 /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Attachment.m; path = src/Attachment.m; sourceTree = "<group>"; };
+		F522B8D6020BB49301A86403 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = resource/Japanese.lproj/ReceiveWindow.nib; sourceTree = "<group>"; };
+		F52567A603A2026001DDF8B6 /* AttachmentFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachmentFile.h; path = src/AttachmentFile.h; sourceTree = "<group>"; };
+		F52567A703A2026001DDF8B6 /* AttachmentFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachmentFile.m; path = src/AttachmentFile.m; sourceTree = "<group>"; };
+		F5269D350203CE5501A86403 /* SendControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendControl.h; path = src/SendControl.h; sourceTree = "<group>"; };
+		F5269D360203CE5501A86403 /* SendControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendControl.m; path = src/SendControl.m; sourceTree = "<group>"; };
+		F5269D390203CED401A86403 /* AppControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppControl.h; path = src/AppControl.h; sourceTree = "<group>"; };
+		F5269D3A0203CED401A86403 /* AppControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppControl.m; path = src/AppControl.m; sourceTree = "<group>"; };
+		F5269D3E0204112D01A86403 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = resource/Japanese.lproj/NoticeDialog.nib; sourceTree = "<group>"; };
+		F5269D40020411A401A86403 /* NoticeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoticeControl.h; path = src/NoticeControl.h; sourceTree = "<group>"; };
+		F5269D41020411A401A86403 /* NoticeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoticeControl.m; path = src/NoticeControl.m; sourceTree = "<group>"; };
+		F5269D4902041C4601A86403 /* MessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageCenter.h; path = src/MessageCenter.h; sourceTree = "<group>"; };
+		F5269D4A02041C4601A86403 /* MessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageCenter.m; path = src/MessageCenter.m; sourceTree = "<group>"; };
+		F5269D50020433CA01A86403 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserInfo.h; path = src/UserInfo.h; sourceTree = "<group>"; };
+		F5269D51020433CA01A86403 /* UserInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UserInfo.mm; path = src/UserInfo.mm; sourceTree = "<group>"; };
+		F5269D580204376601A86403 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserManager.h; path = src/UserManager.h; sourceTree = "<group>"; };
+		F5269D590204376601A86403 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserManager.m; path = src/UserManager.m; sourceTree = "<group>"; };
+		F5269D5D020439E901A86403 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Japanese; path = resource/Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5269D620204409F01A86403 /* ReceiveControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiveControl.h; path = src/ReceiveControl.h; sourceTree = "<group>"; };
+		F5269D630204409F01A86403 /* ReceiveControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiveControl.m; path = src/ReceiveControl.m; sourceTree = "<group>"; };
+		F5277C820205B2F101A86403 /* PrefControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefControl.h; path = src/PrefControl.h; sourceTree = "<group>"; };
+		F5277C860205B81A01A86403 /* SendMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendMessage.h; path = src/SendMessage.h; sourceTree = "<group>"; };
+		F5277C870205B81A01A86403 /* SendMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendMessage.m; path = src/SendMessage.m; sourceTree = "<group>"; };
+		F52964AA02F6EBD101A80004 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = resource/Japanese.lproj/PortChangeDialog.nib; sourceTree = "<group>"; };
+		F52964AC02F6EBF501A80004 /* PortChangeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PortChangeControl.h; path = src/PortChangeControl.h; sourceTree = "<group>"; };
+		F52964AD02F6EBF501A80004 /* PortChangeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PortChangeControl.m; path = src/PortChangeControl.m; sourceTree = "<group>"; };
+		F52F17710344A90101A80003 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugLog.h; path = src/DebugLog.h; sourceTree = "<group>"; };
+		F53330EF0369A757012E428F /* AttachmentClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachmentClient.h; path = src/AttachmentClient.h; sourceTree = "<group>"; };
+		F53330F00369A757012E428F /* AttachmentClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachmentClient.m; path = src/AttachmentClient.m; sourceTree = "<group>"; };
+		F538AD5A0275CC1401A86404 /* IPMsg.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = IPMsg.icns; path = resource/IPMsg.icns; sourceTree = "<group>"; };
+		F538AD5B0275CC1401A86404 /* IPMsgAbsence.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = IPMsgAbsence.icns; path = resource/IPMsgAbsence.icns; sourceTree = "<group>"; };
+		F5411AE50387AF0001B5C499 /* AttachStatusControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttachStatusControl.h; path = src/AttachStatusControl.h; sourceTree = "<group>"; };
+		F5411AE60387AF0001B5C499 /* AttachStatusControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttachStatusControl.m; path = src/AttachStatusControl.m; sourceTree = "<group>"; };
+		F566A88D03B30DD80114103B /* ReceiveWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReceiveWindow.h; path = src/ReceiveWindow.h; sourceTree = "<group>"; };
+		F566A88E03B30DD80114103B /* ReceiveWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReceiveWindow.m; path = src/ReceiveWindow.m; sourceTree = "<group>"; };
+		F566A89103B319780114103B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = resource/English.lproj/ReceiveWindow.nib; sourceTree = "<group>"; };
+		F566A89203B319890114103B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = resource/English.lproj/SendWindow.nib; sourceTree = "<group>"; };
+		F57BE9FD037DF9E901F89D99 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DebugLog.m; path = src/DebugLog.m; sourceTree = "<group>"; };
+		F599B3C8036A445D01A80003 /* IPMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPMessenger.h; path = src/IPMessenger.h; sourceTree = "<group>"; };
+		F5A78372037E820401C10C8C /* NSStringIPMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringIPMessenger.h; path = Src/NSStringIPMessenger.h; sourceTree = "<group>"; };
+		F5A78373037E820401C10C8C /* NSStringIPMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringIPMessenger.m; path = Src/NSStringIPMessenger.m; sourceTree = "<group>"; };
+		F5BA311903B1FB5F0114181D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = resource/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F5BA311E03B1FBAA0114181D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = resource/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F5BA311F03B1FBBE0114181D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = resource/English.lproj/PortChangeDialog.nib; sourceTree = "<group>"; };
+		F5BF154D03B3095E0114103B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = resource/InfoPlist.strings; sourceTree = "<group>"; };
+		F5E919C40362F94001A80004 /* SendWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SendWindow.h; path = src/SendWindow.h; sourceTree = "<group>"; };
+		F5E919C50362F94001A80004 /* SendWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SendWindow.m; path = src/SendWindow.m; sourceTree = "<group>"; };
+		F5FEFAD003AB352701F0AD6A /* AltLog.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AltLog.icns; path = resource/AltLog.icns; sourceTree = "<group>"; };
+		F5FEFAD203AB3F7701F0AD6A /* Attach.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Attach.icns; path = resource/Attach.icns; sourceTree = "<group>"; };
+		F5FEFAD603AB49DB01F0AD6A /* AttachS.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = AttachS.tiff; path = resource/AttachS.tiff; sourceTree = "<group>"; };
+		F7127EFB03DBFD5C001410E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		F7127F0D03DC03A6001410E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		F734536C0C454622001D5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F734536F0C454622001D5375 /* IPMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F775679103CEBE6700141840 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = resource/English.lproj/NoticeDialog.nib; sourceTree = "<group>"; };
+		F7FA4CA103C5A67300F04150 /* RecvMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecvMessage.h; path = src/RecvMessage.h; sourceTree = "<group>"; };
+		F7FA4CA203C5A67300F04150 /* RecvMessage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RecvMessage.mm; path = src/RecvMessage.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73453640C454622001D5375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73453650C454622001D5375 /* Cocoa.framework in Frameworks */,
+				A6D8CB5F115CC699001F0BB8 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64253EAE026818A200A0FC6F /* ApplicationManagement */,
+				F5269D4F020433CA01A86403 /* UserManagement */,
+				F5269D4402041BF801A86403 /* MessageManagement */,
+				F51E8DF103266ECD01A80003 /* AttachmentManagement */,
+				F5269D300203C9EE01A86403 /* UIManagement */,
+				F57BE9FC037DF99A01F89D99 /* Utility */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F7127EFB03DBFD5C001410E6 /* SystemConfiguration.framework */,
+				F7127F0D03DC03A6001410E6 /* Security.framework */,
+				A6D8CB5E115CC699001F0BB8 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F734536F0C454622001D5375 /* IPMessenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IPMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = IPMessenger;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F775679203CEBF4E00141840 /* Icons */,
+				F775679303CEBF6500141840 /* Nibs */,
+				F775679403CEBF7100141840 /* Strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64253EAE026818A200A0FC6F /* ApplicationManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F599B3C8036A445D01A80003 /* IPMessenger.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				F5269D390203CED401A86403 /* AppControl.h */,
+				F5269D3A0203CED401A86403 /* AppControl.m */,
+				648FC3560260947000A86403 /* Config.h */,
+				648FC35B0260954200A86403 /* Config.m */,
+			);
+			name = ApplicationManagement;
+			sourceTree = "<group>";
+		};
+		F51E8DF103266ECD01A80003 /* AttachmentManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F51E8DF6032673F001A80003 /* Attachment.h */,
+				F51E8DFC0326754901A80003 /* Attachment.m */,
+				F52567A603A2026001DDF8B6 /* AttachmentFile.h */,
+				F52567A703A2026001DDF8B6 /* AttachmentFile.m */,
+				F51E8DF20326721501A80003 /* AttachmentServer.h */,
+				F51E8DF30326721501A80003 /* AttachmentServer.m */,
+				F53330EF0369A757012E428F /* AttachmentClient.h */,
+				F53330F00369A757012E428F /* AttachmentClient.m */,
+			);
+			name = AttachmentManagement;
+			sourceTree = "<group>";
+		};
+		F5269D300203C9EE01A86403 /* UIManagement */ = {
+			isa = PBXGroup;
+			children = (
+				64A2D09A02CF020900A80003 /* WindowManager.h */,
+				64A2D09B02CF020900A80003 /* WindowManager.m */,
+				F52964AC02F6EBF501A80004 /* PortChangeControl.h */,
+				F52964AD02F6EBF501A80004 /* PortChangeControl.m */,
+				F5269D40020411A401A86403 /* NoticeControl.h */,
+				F5269D41020411A401A86403 /* NoticeControl.m */,
+				F5277C820205B2F101A86403 /* PrefControl.h */,
+				64C4C4920272FF5300A86403 /* PrefControl.m */,
+				F5411AE50387AF0001B5C499 /* AttachStatusControl.h */,
+				F5411AE60387AF0001B5C499 /* AttachStatusControl.m */,
+				F566A88D03B30DD80114103B /* ReceiveWindow.h */,
+				F566A88E03B30DD80114103B /* ReceiveWindow.m */,
+				F5269D620204409F01A86403 /* ReceiveControl.h */,
+				F5269D630204409F01A86403 /* ReceiveControl.m */,
+				6417D5BB02EA9BF400A80003 /* ReceiveMessageView.h */,
+				6417D5BC02EA9BF400A80003 /* ReceiveMessageView.m */,
+				F5E919C40362F94001A80004 /* SendWindow.h */,
+				F5E919C50362F94001A80004 /* SendWindow.m */,
+				F5269D350203CE5501A86403 /* SendControl.h */,
+				F5269D360203CE5501A86403 /* SendControl.m */,
+				64A845CF02EB14CD00A80003 /* SendMessageView.h */,
+				64A845D002EB14CD00A80003 /* SendMessageView.m */,
+			);
+			name = UIManagement;
+			sourceTree = "<group>";
+		};
+		F5269D4402041BF801A86403 /* MessageManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F7FA4CA103C5A67300F04150 /* RecvMessage.h */,
+				F7FA4CA203C5A67300F04150 /* RecvMessage.mm */,
+				F5277C860205B81A01A86403 /* SendMessage.h */,
+				F5277C870205B81A01A86403 /* SendMessage.m */,
+				64CD0450027F05C200C69EE8 /* LogManager.h */,
+				64CD0451027F05C200C69EE8 /* LogManager.m */,
+				F5269D4902041C4601A86403 /* MessageCenter.h */,
+				F5269D4A02041C4601A86403 /* MessageCenter.m */,
+				64DAAE0B02A0BDE2001FC8E1 /* RetryInfo.h */,
+				64DAAE0C02A0BDE2001FC8E1 /* RetryInfo.m */,
+			);
+			name = MessageManagement;
+			sourceTree = "<group>";
+		};
+		F5269D4F020433CA01A86403 /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				F5269D580204376601A86403 /* UserManager.h */,
+				F5269D590204376601A86403 /* UserManager.m */,
+				F5269D50020433CA01A86403 /* UserInfo.h */,
+				F5269D51020433CA01A86403 /* UserInfo.mm */,
+				6426F20302C59B8700A80003 /* RefuseInfo.h */,
+				6426F20402C59B8700A80003 /* RefuseInfo.m */,
+			);
+			name = UserManagement;
+			sourceTree = "<group>";
+		};
+		F57BE9FC037DF99A01F89D99 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F52F17710344A90101A80003 /* DebugLog.h */,
+				F57BE9FD037DF9E901F89D99 /* DebugLog.m */,
+				F5A78372037E820401C10C8C /* NSStringIPMessenger.h */,
+				F5A78373037E820401C10C8C /* NSStringIPMessenger.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		F775679203CEBF4E00141840 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F5FEFAD003AB352701F0AD6A /* AltLog.icns */,
+				F5FEFAD203AB3F7701F0AD6A /* Attach.icns */,
+				F5FEFAD603AB49DB01F0AD6A /* AttachS.tiff */,
+				F538AD5A0275CC1401A86404 /* IPMsg.icns */,
+				64C55AB70278E2F900F306A7 /* IPMsgReverse.icns */,
+				F538AD5B0275CC1401A86404 /* IPMsgAbsence.icns */,
+				64C55AB80278E2F900F306A7 /* IPMsgAbsenceReverse.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F775679303CEBF6500141840 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				F522B8D5020BB49301A86403 /* ReceiveWindow.nib */,
+				F504C9960203352501A86403 /* SendWindow.nib */,
+				F5269D3D0204112D01A86403 /* NoticeDialog.nib */,
+				F52964A902F6EBD101A80004 /* PortChangeDialog.nib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		F775679403CEBF7100141840 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F734536C0C454622001D5375 /* Info.plist */,
+				F5BF154D03B3095E0114103B /* InfoPlist.strings */,
+				F5269D5C020439E901A86403 /* Localizable.strings */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F73453190C454622001D5375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F734531A0C454622001D5375 /* SendControl.h in Headers */,
+				F734531B0C454622001D5375 /* AppControl.h in Headers */,
+				F734531C0C454622001D5375 /* NoticeControl.h in Headers */,
+				F734531D0C454622001D5375 /* MessageCenter.h in Headers */,
+				F734531E0C454622001D5375 /* UserInfo.h in Headers */,
+				F734531F0C454622001D5375 /* UserManager.h in Headers */,
+				F73453200C454622001D5375 /* ReceiveControl.h in Headers */,
+				F73453210C454622001D5375 /* PrefControl.h in Headers */,
+				F73453220C454622001D5375 /* SendMessage.h in Headers */,
+				F73453230C454622001D5375 /* Config.h in Headers */,
+				F73453240C454622001D5375 /* LogManager.h in Headers */,
+				F73453250C454622001D5375 /* RetryInfo.h in Headers */,
+				F73453260C454622001D5375 /* RefuseInfo.h in Headers */,
+				F73453270C454622001D5375 /* WindowManager.h in Headers */,
+				F73453280C454622001D5375 /* ReceiveMessageView.h in Headers */,
+				F73453290C454622001D5375 /* SendMessageView.h in Headers */,
+				F734532A0C454622001D5375 /* PortChangeControl.h in Headers */,
+				F734532B0C454622001D5375 /* AttachmentServer.h in Headers */,
+				F734532C0C454622001D5375 /* Attachment.h in Headers */,
+				F734532D0C454622001D5375 /* DebugLog.h in Headers */,
+				F734532E0C454622001D5375 /* SendWindow.h in Headers */,
+				F734532F0C454622001D5375 /* AttachmentClient.h in Headers */,
+				F73453300C454622001D5375 /* IPMessenger.h in Headers */,
+				F73453310C454622001D5375 /* NSStringIPMessenger.h in Headers */,
+				F73453320C454622001D5375 /* AttachStatusControl.h in Headers */,
+				F73453330C454622001D5375 /* AttachmentFile.h in Headers */,
+				F73453340C454622001D5375 /* ReceiveWindow.h in Headers */,
+				F73453350C454622001D5375 /* RecvMessage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F73453180C454622001D5375 /* IPMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73453660C454622001D5375 /* Build configuration list for PBXNativeTarget "IPMessenger" */;
+			buildPhases = (
+				F73453190C454622001D5375 /* Headers */,
+				F73453370C454622001D5375 /* Resources */,
+				F73453460C454622001D5375 /* Sources */,
+				F73453640C454622001D5375 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPMessenger;
+			productInstallPath = "$(HOME)/Applications";
+			productName = IPMessenger;
+			productReference = F734536F0C454622001D5375 /* IPMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F734530C0C4545F7001D5375 /* Build configuration list for PBXProject "IPMessenger" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IPMessenger */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73453180C454622001D5375 /* IPMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73453370C454622001D5375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73453380C454622001D5375 /* MainMenu.nib in Resources */,
+				F73453390C454622001D5375 /* SendWindow.nib in Resources */,
+				F734533A0C454622001D5375 /* NoticeDialog.nib in Resources */,
+				F734533B0C454622001D5375 /* Localizable.strings in Resources */,
+				F734533C0C454622001D5375 /* ReceiveWindow.nib in Resources */,
+				F734533D0C454622001D5375 /* IPMsg.icns in Resources */,
+				F734533E0C454622001D5375 /* IPMsgAbsence.icns in Resources */,
+				F734533F0C454622001D5375 /* IPMsgAbsenceReverse.icns in Resources */,
+				F73453400C454622001D5375 /* IPMsgReverse.icns in Resources */,
+				F73453410C454622001D5375 /* PortChangeDialog.nib in Resources */,
+				F73453420C454622001D5375 /* AltLog.icns in Resources */,
+				F73453430C454622001D5375 /* Attach.icns in Resources */,
+				F73453440C454622001D5375 /* AttachS.tiff in Resources */,
+				F73453450C454622001D5375 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73453460C454622001D5375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73453470C454622001D5375 /* main.m in Sources */,
+				F73453480C454622001D5375 /* SendControl.m in Sources */,
+				F73453490C454622001D5375 /* AppControl.m in Sources */,
+				F734534A0C454622001D5375 /* NoticeControl.m in Sources */,
+				F734534B0C454622001D5375 /* MessageCenter.m in Sources */,
+				F734534C0C454622001D5375 /* UserInfo.mm in Sources */,
+				F734534D0C454622001D5375 /* UserManager.m in Sources */,
+				F734534E0C454622001D5375 /* ReceiveControl.m in Sources */,
+				F734534F0C454622001D5375 /* SendMessage.m in Sources */,
+				F73453500C454622001D5375 /* Config.m in Sources */,
+				F73453510C454622001D5375 /* PrefControl.m in Sources */,
+				F73453520C454622001D5375 /* LogManager.m in Sources */,
+				F73453530C454622001D5375 /* RetryInfo.m in Sources */,
+				F73453540C454622001D5375 /* RefuseInfo.m in Sources */,
+				F73453550C454622001D5375 /* WindowManager.m in Sources */,
+				F73453560C454622001D5375 /* ReceiveMessageView.m in Sources */,
+				F73453570C454622001D5375 /* SendMessageView.m in Sources */,
+				F73453580C454622001D5375 /* PortChangeControl.m in Sources */,
+				F73453590C454622001D5375 /* AttachmentServer.m in Sources */,
+				F734535A0C454622001D5375 /* Attachment.m in Sources */,
+				F734535B0C454622001D5375 /* SendWindow.m in Sources */,
+				F734535C0C454622001D5375 /* AttachmentClient.m in Sources */,
+				F734535D0C454622001D5375 /* DebugLog.m in Sources */,
+				F734535E0C454622001D5375 /* NSStringIPMessenger.m in Sources */,
+				F734535F0C454622001D5375 /* AttachStatusControl.m in Sources */,
+				F73453600C454622001D5375 /* AttachmentFile.m in Sources */,
+				F73453610C454622001D5375 /* ReceiveWindow.m in Sources */,
+				F73453620C454622001D5375 /* RecvMessage.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F504C99402032B8E01A86403 /* Japanese */,
+				F5BA311903B1FB5F0114181D /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		F504C9960203352501A86403 /* SendWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F504C9970203352501A86403 /* Japanese */,
+				F566A89203B319890114103B /* English */,
+			);
+			name = SendWindow.nib;
+			sourceTree = "<group>";
+		};
+		F522B8D5020BB49301A86403 /* ReceiveWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F522B8D6020BB49301A86403 /* Japanese */,
+				F566A89103B319780114103B /* English */,
+			);
+			name = ReceiveWindow.nib;
+			sourceTree = "<group>";
+		};
+		F5269D3D0204112D01A86403 /* NoticeDialog.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5269D3E0204112D01A86403 /* Japanese */,
+				F775679103CEBE6700141840 /* English */,
+			);
+			name = NoticeDialog.nib;
+			sourceTree = "<group>";
+		};
+		F5269D5C020439E901A86403 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5269D5D020439E901A86403 /* Japanese */,
+				F5BA311E03B1FBAA0114181D /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F52964A902F6EBD101A80004 /* PortChangeDialog.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52964AA02F6EBD101A80004 /* Japanese */,
+				F5BA311F03B1FBBE0114181D /* English */,
+			);
+			name = PortChangeDialog.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F734530D0C4545F7001D5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_VERSION = 4.0;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		F734530E0C4545F7001D5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_VERSION = 4.0;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+		F73453670C454622001D5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = IPMSG_DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = IPMessenger;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		F73453680C454622001D5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = IPMessenger;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F734530C0C4545F7001D5375 /* Build configuration list for PBXProject "IPMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F734530D0C4545F7001D5375 /* Debug */,
+				F734530E0C4545F7001D5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F73453660C454622001D5375 /* Build configuration list for PBXNativeTarget "IPMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73453670C454622001D5375 /* Debug */,
+				F73453680C454622001D5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

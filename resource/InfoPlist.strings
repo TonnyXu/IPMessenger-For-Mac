@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "IP Messenger";
+CFBundleShortVersionString = "0.9.2";
+CFBundleGetInfoString = "IP Messenger for MacOS X, Copyright © 2001-2009, G.Ishiwata.";
+NSHumanReadableCopyright = "Copyright © 2001-2009, G.Ishiwata. \n Enhanced by Tonny Xu";

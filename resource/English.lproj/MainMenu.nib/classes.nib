@@ -1,0 +1,170 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                absenceMenuChanged = id; 
+                clickStatusBar = id; 
+                closeAllDialogs = id; 
+                closeAllWindows = id; 
+                gotoHomePage = id; 
+                newMessage = id; 
+                openLog = id; 
+                showNonPopupMessage = id; 
+            }; 
+            CLASS = AppControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                absenceMenu = NSMenu; 
+                absenceMenuForDock = NSMenu; 
+                absenceMenuForStatusBar = NSMenu; 
+                absenceOffMenuItem = NSMenuItem; 
+                absenceOffMenuItemForDock = NSMenuItem; 
+                absenceOffMenuItemForStatusBar = NSMenuItem; 
+                receiveWindowPosFixMenuItem = NSMenuItem; 
+                sendWindowPosFixMenuItem = NSMenuItem; 
+                showNonPopupMenuItem = NSMenuItem; 
+                statusBarMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {buttonPressed = id; checkboxChanged = id; }; 
+            CLASS = AttachStatusControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                attachTable = NSOutlineView; 
+                deleteButton = NSButton; 
+                dispAlwaysCheck = NSButton; 
+                panel = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                backWindowToFront = id; 
+                replyMessage = id; 
+                resetReceiveMessageFont = id; 
+                resetReceiveWindowSize = id; 
+                resetSendMessageFont = id; 
+                resetSendWindowSize = id; 
+                saveReceiveMessageFont = id; 
+                saveReceiveWindowPosition = id; 
+                saveReceiveWindowSize = id; 
+                saveSendMessageFont = id; 
+                saveSendWindowPosition = id; 
+                saveSendWindowSize = id; 
+                sendMessage = id; 
+                showReceiveMessageFontPanel = id; 
+                showSendMessageFontPanel = id; 
+                updateUserList = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                buttonPressed = id; 
+                checkboxChanged = id; 
+                matrixChanged = id; 
+                popupChanged = id; 
+            }; 
+            CLASS = PrefControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                absenceAddButton = NSButton; 
+                absenceDeleteButton = NSButton; 
+                absenceDownButton = NSButton; 
+                absenceEditButton = NSButton; 
+                absenceResetButton = NSButton; 
+                absenceSheet = NSPanel; 
+                absenceSheetCancelButton = NSButton; 
+                absenceSheetErrorLabel = NSTextField; 
+                absenceSheetMessageArea = NSTextView; 
+                absenceSheetOKButton = NSButton; 
+                absenceSheetTitleField = NSTextField; 
+                absenceTable = NSTableView; 
+                absenceUpButton = NSButton; 
+                baseGroupNameField = NSTextField; 
+                baseHostDomainRmoveCheck = NSButton; 
+                baseLogOnNameField = NSTextField; 
+                baseMachineNameField = NSTextField; 
+                baseMachineNameMatrix = NSMatrix; 
+                basePasswordButton = NSButton; 
+                baseUserNameField = NSTextField; 
+                bcastSheet = NSPanel; 
+                bcastSheetCancelButton = NSButton; 
+                bcastSheetErrorLabel = NSTextField; 
+                bcastSheetField = NSTextField; 
+                bcastSheetMatrix = NSMatrix; 
+                bcastSheetOKButton = NSButton; 
+                bcastSheetResolveCheck = NSButton; 
+                logAltEnableCheck = NSButton; 
+                logAltPathField = NSTextField; 
+                logAltPathRefButton = NSButton; 
+                logAltSelectionCheck = NSButton; 
+                logLineEndingsPopup = NSPopUpButton; 
+                logStdEnableCheck = NSButton; 
+                logStdPathField = NSTextField; 
+                logStdPathRefButton = NSButton; 
+                logStdWhenOpenChainCheck = NSButton; 
+                netBroadAddButton = NSButton; 
+                netBroadAddressTable = NSTableView; 
+                netBroadDeleteButton = NSButton; 
+                netDialupCheck = NSButton; 
+                netPortNoField = NSTextField; 
+                panel = NSPanel; 
+                pwdSheet = NSPanel; 
+                pwdSheetCancelButton = NSButton; 
+                pwdSheetErrorLabel = NSTextField; 
+                pwdSheetNewPwdField1 = NSSecureTextField; 
+                pwdSheetNewPwdField2 = NSSecureTextField; 
+                pwdSheetOKButton = NSButton; 
+                pwdSheetOldPwdField = NSSecureTextField; 
+                receiveClickableURLCheck = NSButton; 
+                receiveDefaultQuotCheck = NSButton; 
+                receiveNonPopupBoundMatrix = NSMatrix; 
+                receiveNonPopupCheck = NSButton; 
+                receiveNonPopupModeMatrix = NSMatrix; 
+                receiveSoundPopup = NSPopUpButton; 
+                receiveStatusBarCheckBox = NSButton; 
+                refuseAddButton = NSButton; 
+                refuseDeleteButton = NSButton; 
+                refuseDownButton = NSButton; 
+                refuseEditButton = NSButton; 
+                refuseSheet = NSPanel; 
+                refuseSheetCancelButton = NSButton; 
+                refuseSheetCondPopup = NSPopUpButton; 
+                refuseSheetErrorLabel = NSTextField; 
+                refuseSheetField = NSTextField; 
+                refuseSheetOKButton = NSButton; 
+                refuseSheetTargetPopup = NSPopUpButton; 
+                refuseTable = NSTableView; 
+                refuseUpButton = NSButton; 
+                sendAllUsersCheck = NSButton; 
+                sendDefaultSealCheck = NSButton; 
+                sendHideWhenReplyCheck = NSButton; 
+                sendMultipleUserCheck = NSButton; 
+                sendOpenNotifyCheck = NSButton; 
+                sendQuotField = NSTextField; 
+                sendSingleClickCheck = NSButton; 
+                userlistAddressDispCheck = NSButton; 
+                userlistIgnoreCaseCheck = NSButton; 
+                userlistKanjiPriorityCheck = NSButton; 
+                userlistLogonDispCheck = NSButton; 
+                userlistSortDownButton = NSButton; 
+                userlistSortTable = NSTableView; 
+                userlistSortUpButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {buttonPressed = id; checkboxChanged = id; }; 
+            CLASS = UserListControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {hideOnDeactiveCheck = id; panel = id; updateButton = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
