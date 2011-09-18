@@ -25,6 +25,8 @@
 	<string>IP Messenger 0.9.2</string>
 	<key>CFBundleIconFile</key>
 	<string>IPMsg</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -37,6 +39,8 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>0.9.2</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.business</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
